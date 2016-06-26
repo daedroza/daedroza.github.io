@@ -1,20 +1,69 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title:            Blogging in style!
+tagline:          Not my cup of tea.
+description: "Howdy,"
+# An awesome quote for your website
+quote:  "This rainy town is where I found you ;-)"
+canonical: daedroza.github.io
+#Comment out the below line when pushing to gh-pages
+#url: http://10.42.0.1/_site 
+#For local development only. Comment it out.
+#file_end: .html
+#url: http://localhost:4000
 
-# Site settings
-title: Homepage
-email: daedroza@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
- Hello, I'm Kalpaj. This blog is based on Jekyll. This is a place where
- I can write about my thoughts regarding my studies, hobbies or work related
- stuff. Feel free to contact me.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://daedroza.github.io" # the base hostname & protocol for your site
-github_username:  daedroza
+# Owner/author information
+owner:
+  name:           Adrian Glitch
+  avatar:         avatar.jpg
+  bio:            
+  email:          daedroza@gmail.com
+  twitter:        
+  github:         daedroza
+  instagram:      
+  dribbble:
+  googleplus:     https://plus.google.com/u/0/117708956939279331132       
+  disqus:         
+  location:       /
+  # Plug in your disqus shortname!
 
-# Build settings
-markdown: kramdown
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+# Open Graph customization
+opengraph:
+  locale:           en_US
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Kolkata
+future:      true
+highlighter: pygments
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+sass:
+    style: :compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
