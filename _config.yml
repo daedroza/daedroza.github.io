@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Welcome aboard!
+email: daedroza@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+ Hello, I'm Kalpaj. This blog is based on Jekyll. This is a place where
+ I can write about my thoughts regarding my studies, hobbies or work related
+ stuff. Feel free to contact me.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://daedroza.github.io" # the base hostname & protocol for your site
+github_username:  daedroza
+
+# Build settings
+markdown: kramdown
