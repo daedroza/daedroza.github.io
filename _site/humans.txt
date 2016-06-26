@@ -6,6 +6,6 @@ Location: /
                            
 
 /* SITE */                         
-Last update: 2016-06-26
+Last update: 2016-06-27
 Standards: HTML, SCSS, Jekyll                        
 Software: git

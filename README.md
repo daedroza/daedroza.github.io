@@ -25,7 +25,7 @@ I thought Balzac was a wizard's name. So when I forked and tweaked [Cole Townsen
 5.  ???
 6.  Profit
 
-## [Preview this Theme](http://espresso-math.github.io)
+## [Preview this Theme](http://daedroza.github.io)
  
 ``` bash 
 Fairytale-Theme/
