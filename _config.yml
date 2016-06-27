@@ -16,8 +16,9 @@ owner:
   avatar:         avatar.jpg
   bio:            
   email:          daedroza@gmail.com
+  xda:            http://forum.xda-developers.com/member.php?u=5906831
   twitter:        
-  github:         daedroza
+  github:         https://github.com/daedroza
   instagram:      
   dribbble:
   googleplus:     https://plus.google.com/u/0/117708956939279331132       
@@ -36,6 +37,8 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: Contact Me
+    url: /contact
   - title: About
     url: /about
 
