@@ -1,8 +1,8 @@
-title:            Welcome to my blog
-tagline:          Not my cup of tea.
-description: "Howdy,"
+title:            Welcome, HOWDY!
+tagline:          
+description: An blogging site for Daedroza!
 # An awesome quote for your website
-quote:  "The greatest weakness of most humans is their hesitancy to tell others how they love them whle they're alive - Optimus Prime"
+quote:  "Love, liberty and time."
 canonical: daedroza.github.io
 #Comment out the below line when pushing to gh-pages
 #url: http://10.42.0.1/_site 
