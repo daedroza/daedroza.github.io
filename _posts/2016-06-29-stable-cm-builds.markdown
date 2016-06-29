@@ -12,7 +12,7 @@ image:
 
 Hello, this is a 14-days/monthly buildbot for fusion3 devices. Remember, they are made from last-known stable
 configuration to me. Additionally, I have done some cherry-picks, including rotation sensor fix.
-I assume that you have already all the stuff from the xda-thread corresponding to this and only then head
+I assume that you have already read all the stuff from the xda-thread corresponding to this and only then head
 over to downloads!
 {% highlight bash %}
 From fusion3-common
