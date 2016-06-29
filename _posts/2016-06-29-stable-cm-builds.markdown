@@ -17,7 +17,7 @@ over to downloads!
 {% highlight bash %}
 From fusion3-common
 3dd2c32 fusion3-common: Use MONOTONIC for rotation sensor timestamp
-531f3f1 fusion3-common: Update custombootimg for renamed toybox_init
+<s>531f3f1 fusion3-common: Update custombootimg for renamed toybox_init</s>
 c5be746 init: remove no_sleep from mpdecision
 
 From kernel_apq8064
@@ -27,6 +27,9 @@ b84c9d8 arm: Use generic idle thread allocation
 de18ee1 CPU hotplug: Provide lockless versions of callback registration functions
 22d0ae9 power: remove earlysuspend
 {% endhighlight %}
+
+Update : 531f3f1 Doesn't work.... That's probably everyone is using TWRP for flashing and not cm's recovery...
+so I have reverted at the moment... new builds with fix will be up soon :-)
 
 Download link for fusion3 devices : [G-drive](https://drive.google.com/open?id=0B9yrk5QZnasiV1BaY1libUdBbWc)
 
