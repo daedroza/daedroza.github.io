@@ -17,7 +17,7 @@ over to downloads!
 {% highlight bash %}
 From fusion3-common
 3dd2c32 fusion3-common: Use MONOTONIC for rotation sensor timestamp
-<s>531f3f1 fusion3-common: Update custombootimg for renamed toybox_init</s>
+531f3f1 fusion3-common: Update custombootimg for renamed toybox_init
 c5be746 init: remove no_sleep from mpdecision
 
 From kernel_apq8064
