@@ -37,9 +37,7 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Contact Me
-    url: /contact
-  - title: About
+  - title: About / Contact
     url: /about
 
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

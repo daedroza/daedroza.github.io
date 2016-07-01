@@ -14,4 +14,10 @@ permalink: /about/
 
 Sometime ago, I read somewhere that we should be able to appreciate everything about the world. But I'm only human. Sometimes I feel that things should have gone differently. But as time passes by, I have come to appreciate the downsides and let go of things."
 
+##<s>Stalk</s> Follow me on : 
 
+[Google+]({{ site.owner.googleplus }})
+
+[XDA-Developers]({{ site.owner.xda }})
+
+[Github.com]({{ site.owner.github }})
