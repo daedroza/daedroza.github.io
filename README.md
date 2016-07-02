@@ -1,4 +1,4 @@
-#Read Me( from @expresso-math)
+#Read Me(from @expresso-math)
 
 I thought Balzac was a wizard's name. So when I forked and tweaked [Cole Townsend's](@twnsndco) Balzac for Jekyll theme I named it Fairytale. It's a theme which is heavy on typography. I did little modification to the home page. But I took my liberty with the rest. Fairytale is my first theme for jekyll. I didn't change the layout more than was necessary since I intend the theme to reflect Balzac in functionaliy. 
 
