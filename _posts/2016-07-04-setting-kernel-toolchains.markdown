@@ -30,7 +30,7 @@ make[1]: *** [kernel/bounds.s] Error 1
 make: *** [prepare0] Error 2
 make: *** Waiting for unfinished jobs....
 make: *** [scripts] Error 2
-{% endlight %}
+{% endhighlight %}
 
 
 However, I reverted all my commits and went back to square one. I restarted all my stuff I had been working on. Now, I use Google's method to setup the toolchain. You obviously need a nice toolchain that optimizes and compiles your ROM. I used version 5.3 from UBERTC. And the way google does it :
@@ -38,6 +38,6 @@ However, I reverted all my commits and went back to square one. I restarted all 
 export PATH=/path/to/tool/chain/bin:$bin
 export CROSS_COMPILE=prefixoftoolchain-
 export ARCH=arm or arch or for type of device you're building
-{% endlight %}
+{% endhighlight %}
 
 
