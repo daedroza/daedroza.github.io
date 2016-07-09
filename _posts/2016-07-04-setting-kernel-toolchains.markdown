@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Toolchain for kernel development
-description: "Solving the riddle in POST #1(2016-06-29)"
+description: "Solving the riddle in POST #1"
 mathjax: true
 date:   2016-07-04 15:30:28 +0530
 typefix:
@@ -33,7 +33,7 @@ make: *** [scripts] Error 2
 {% endhighlight %}
 
 
-However, I reverted all my commits and went back to square one. I restarted all my stuff I had been working on. Now, I use Google's method to setup the toolchain. You obviously need a nice toolchain that optimizes and compiles your ROM. I used version 5.3 from UBERTC. And the way google does it :
+However, I reverted all my commits and went back to square one. I restarted all my stuff I had been working on. Now, I use Google's method to setup the toolchain. You obviously need a nice toolchain that optimizes and compiles your kernel. I used version 5.3 from UBERTC. And the way google does it :
 {% highlight bash %}
 export PATH=/path/to/tool/chain/bin:$bin
 export CROSS_COMPILE=prefixoftoolchain-
