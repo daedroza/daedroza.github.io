@@ -14,21 +14,28 @@ Hello, this is a 14-days/monthly buildbot for fusion3 devices. Remember, they ar
 configuration to me. Additionally, I have done some cherry-picks, including rotation sensor fix.
 I assume that you have already read all the stuff from the xda-thread([ZL](http://forum.xda-developers.com/xperia-zl/development/stable-cyanogenmod-t3407662)|[Z](http://forum.xda-developers.com/xperia-z/development/stable-cyanogenmod-t3407658)|[ZR](http://forum.xda-developers.com/xperia-zr/development/stable-cyanogenmod-t3407650)) corresponding to this and only then head
 over to downloads!
+
 {% highlight bash%}
 *From fusion3-common
-3dd2c32 fusion3-common: Use MONOTONIC for rotation sensor timestamp
-531f3f1 fusion3-common: Update custombootimg for renamed toybox_init
-c5be746 init: remove no_sleep from mpdecision
+69e78e2 fusion3: Fix incall audio
+f6a610b fusion3-common: Use MONOTONIC for rotation sensor timestamp
+738117a fusion3-common: Update custombootimg for renamed toybox_init
+37253dc init: switch to interactive cpu gov
 *From kernel_apq8064
-6392ba2 cpu: Fix generic idle thread allocation
-b84c9d8 arm: Use generic idle thread allocation
-788cd32 smp: Add task_struct argument to __cpu_up()
-de18ee1 CPU hotplug: Provide lockless versions of callback registration functions
-22d0ae9 power: remove earlysuspend
+34650ee lockdep: Remove unnecessary 'hlock_next' variable
+5268fbc lockdep: Consolidate bug messages into a single print_lockdep_off() function
+6d98513 lockdep: Print out additional debugging advice when we hit lockdep BUGs
+f0b46e9 lockdep: Print more info when MAX_LOCK_DEPTH is exceeded
+f5bd7db lockdep: Rename print_unlock_inbalance_bug() to print_unlock_imbalance_bug()
+8c68a4e kernel: Mark find_task_by_vpid with EXPORT_SYMBOL_GPL
+531a7f8 printk: Complete the backport
 {% endhighlight %}
 
-Update : 531f3f1 Doesn't work.... That's probably everyone is using TWRP for flashing and not cm's recovery...
-so I have reverted at the moment... new builds with fix will be up soon :-)
+Update #1 : 531f3f1 causes boot-loop at the moment. Reverted at the moment.
+
+Update #2 : As of July 08, all branches expect kernel_apq8064 is even with CM's branches. Kernel is ahead ;-)
+
+Update #3 : Switch to new msm8960 audio HAL.
 
 Download link for fusion3 devices : [G-drive](https://drive.google.com/open?id=0B9yrk5QZnasiV1BaY1libUdBbWc)
 
