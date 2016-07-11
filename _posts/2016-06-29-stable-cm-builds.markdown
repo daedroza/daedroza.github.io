@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stable CM-builds
-description: "Stable cm-builds for the community!"
+description: "Cyanogenmod 13 for Z|ZR|ZL"
 mathjax: true
 date:   2016-06-29 15:30:28 +0530
 typefix:
@@ -36,6 +36,8 @@ Update #1 : 531f3f1 causes boot-loop at the moment. Reverted at the moment.
 Update #2 : As of July 08, all branches expect kernel_apq8064 is even with CM's branches. Kernel is ahead ;-)
 
 Update #3 : Switch to new msm8960 audio HAL.
+
+Update #4 : When system is suspended, alarm doesn't work. However, with new kernel it is fixed and is including 09-builds.
 
 Download link for fusion3 devices : [G-drive](https://drive.google.com/open?id=0B9yrk5QZnasiV1BaY1libUdBbWc)
 
