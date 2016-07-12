@@ -37,7 +37,7 @@ Update #2 : As of July 08, all branches expect kernel_apq8064 is even with CM's 
 
 Update #3 : Switch to new msm8960 audio HAL.
 
-Update #4 : When system is suspended, alarm doesn't work. However, with new kernel it is fixed and is including 09-builds.
+Update #4 : Fixed alarm issue when system is suspended.
 
 Download link for fusion3 devices : [G-drive](https://drive.google.com/open?id=0B9yrk5QZnasiV1BaY1libUdBbWc)
 

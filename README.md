@@ -1,8 +1,3 @@
-#Read Me(from @expresso-math)
-
-I thought Balzac was a wizard's name. So when I forked and tweaked [Cole Townsend's](@twnsndco) Balzac for Jekyll theme I named it Fairytale. It's a theme which is heavy on typography. I did little modification to the home page. But I took my liberty with the rest. Fairytale is my first theme for jekyll. I didn't change the layout more than was necessary since I intend the theme to reflect Balzac in functionaliy. 
-
-
 ## Features
 - A few typographical eye candy
 - MathJax
@@ -220,3 +215,7 @@ If done correctly `/blog` should be a page listing all the site's posts.
 ## License
 
 This is free to use, fork, do whatever you want. 
+
+## Git's markdown guide
+
+Link to learn additional markdown features [here](https://guides.github.com/features/mastering-markdown/)
