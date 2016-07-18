@@ -1,0 +1,19 @@
+---
+layout: post
+title: End of life - First Year
+description: "Moving on!"
+mathjax: true
+date:   2016-07-18 21:30:28 +0530
+typefix:
+     indent: true
+image:
+     feature: "http://4.bp.blogspot.com/_ziy13ht3U1k/TB2U6LDs0qI/AAAAAAAABGc/4pBa02NjGao/s1600/Landscape-16-6-2010.jpg"
+---
+
+The day is about to end and alot has happened over since this day from last year. My year in engineering had everything I ever wanted, all the ups and down. Variety is the spice of life, now I'm sure. 
+
+I made a lot of friends in Semester 1 and Semester 2. Some I lost, but some even came closer. My only wish is that we could all go out more. I have learned to be myself in front of them, you guys are the best! And Happy Birthday Shreya, God bless you!
+
+Learned a lot, from Vlad and George about Android Development. I want to thank them. I had my longshot on CM kernel. Really, it's too hard to get things done when you don't have enough knowledge. I tried my best and I keep trying to add new stuff, probably ended up in denials, but who cares? I managed it.
+
+Tomorrow, a new fresh start. Probably a new work-out routine, making new friends and learning new things, that's the plan!
