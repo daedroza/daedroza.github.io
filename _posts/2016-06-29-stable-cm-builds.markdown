@@ -17,18 +17,18 @@ over to downloads!
 
 {% highlight bash%}
 *From fusion3-common
-69e78e2 fusion3: Fix incall audio
-f6a610b fusion3-common: Use MONOTONIC for rotation sensor timestamp
-738117a fusion3-common: Update custombootimg for renamed toybox_init
-37253dc init: switch to interactive cpu gov
+At level with CM
 *From kernel_apq8064
-34650ee lockdep: Remove unnecessary 'hlock_next' variable
-5268fbc lockdep: Consolidate bug messages into a single print_lockdep_off() function
-6d98513 lockdep: Print out additional debugging advice when we hit lockdep BUGs
-f0b46e9 lockdep: Print more info when MAX_LOCK_DEPTH is exceeded
-f5bd7db lockdep: Rename print_unlock_inbalance_bug() to print_unlock_imbalance_bug()
-8c68a4e kernel: Mark find_task_by_vpid with EXPORT_SYMBOL_GPL
-531a7f8 printk: Complete the backport
+f8198a7 fusion3 : update dogo, yuga, odin defconfig
+dd31003 cleanups, align with upstream, fix merge errors
+b0abf14 fs: fix mismerges
+ea13a8f49 USB: core: Add USB_DEVICE_ERROR uevent for enumeration timeout
+46557d4 USB: gadget: android: Fix checkpatch related errors
+be75415 gadget: composite: Fix crash seen when SS descriptor is not available
+40ee3fa usb: gadget: Set size only after validating pointer is valid
+6b3ad71 usb: gadget: Validate the port number in acm_bind_config
+f72d25a USB: gadget: android: Integrate f_midi USB MIDI gadget driver
+7358ac9 USB: gadget: f_audio_source: Rename symbols to avoid conflicts with f_midi
 {% endhighlight %}
 
 Update #1 : 531f3f1 causes boot-loop at the moment. Reverted at the moment.
@@ -38,6 +38,8 @@ Update #2 : As of July 08, all branches expect kernel_apq8064 is even with CM's 
 Update #3 : Switch to new msm8960 audio HAL.
 
 Update #4 : Fixed alarm issue when system is suspended.
+
+Update #5 : Added KSM, removed staging: zram and zmalloc. zram/zmalloc has caused endless troubles. 
 
 Download link for fusion3 devices : [G-drive](https://drive.google.com/open?id=0B9yrk5QZnasiV1BaY1libUdBbWc)
 
