@@ -39,7 +39,9 @@ Update #3 : Switch to new msm8960 audio HAL.
 
 Update #4 : Fixed alarm issue when system is suspended.
 
-Update #5 : Added KSM, removed staging: zram and zmalloc. zram/zmalloc has caused endless troubles. 
+Update #5 : Added KSM, removed staging: zram and zmalloc. zram/zsmalloc has caused endless troubles. 
+
+Update #6 : Added zram, zsmalloc, ksm, fixed denials.
 
 Download link for fusion3 devices : [G-drive](https://drive.google.com/open?id=0B9yrk5QZnasiV1BaY1libUdBbWc)
 
