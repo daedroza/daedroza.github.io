@@ -1,0 +1,11 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+
+  {{ post.content }}
+  {% endfor %}
+</div>
