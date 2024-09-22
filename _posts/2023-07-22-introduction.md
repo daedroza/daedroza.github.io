@@ -9,9 +9,9 @@ title: Introduction
 
 Self-motivated, autonomous and organized software professional. Seasoned open source developer with heavy contributions to [LineageOS](https://lineageos.org/) (formerly [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod)). International recognition from xda-developers.com as "[Recognized Developer](https://forum.xda-developers.com/m/daedroza.5906831/)" for contributions in open source during academic years.
 
-Strong experience in Android framework and middleware components. Proficient in effectively navigating and managing large-scale projects, comprising millions of lines of code.
+Strong experience in Android framework and middleware components. Proficient in effectively navigating and managing large-scale projects, comprising millions of lines of code. Good experience with Chromium as well.
 
-Seeking roles that offer opportunities to make a positive impact, with a preference for open-source environments.
+If you're looking for help to develop customized features on such large code base, please connect with me over polyglot@krisx.dev.
 
 ### Technical Strengths
 

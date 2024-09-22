@@ -1,7 +1,7 @@
 # Setup
-title: Kalpaj Chaudhari
-tagline: Aspiring software professional
-url: https://daedroza.github.io
+title: KRISX FZ-LLC
+tagline: KRISX FZ-LLC
+url: https://krisx.dev
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -34,7 +34,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: Kalpaj Chaudhari
-  url: https://daedroza.github.io
+  url: https://krisx.dev
   email: kalpaj1997@gmail.com
 
 # Custom vars
